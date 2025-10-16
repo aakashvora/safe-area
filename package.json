@@ -21,7 +21,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "ArhamScopeSafeArea.podspec"
+    "ArhamSafeArea.podspec"
   ],
   "author": "",
   "license": "MIT",
