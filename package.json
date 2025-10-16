@@ -1,6 +1,6 @@
 {
   "name": "@arham/safe-area",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "description": "Capacitor Plugin that exposes the safe area insets from the native iOS/Android device to your web project.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.js",
