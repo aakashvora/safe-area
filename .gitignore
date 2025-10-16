@@ -1,5 +1,5 @@
 # node files
-dist
+
 node_modules
 
 # iOS files
@@ -68,3 +68,4 @@ DerivedData/
 .netrc
 Package.resolved
 /.build
+
