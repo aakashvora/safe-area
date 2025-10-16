@@ -5,6 +5,14 @@
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.js",
   "types": "dist/definitions.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/definitions.d.ts",
+      "import": "./dist/plugin.js",
+      "require": "./dist/plugin.cjs.js",
+      "default": "./dist/plugin.js"
+    }
+  },
   "unpkg": "dist/plugin.js",
   "files": [
     "android/src/main/",
@@ -13,7 +21,7 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CapacitorCommunitySafeArea.podspec"
+    "ArhamScopeSafeArea.podspec"
   ],
   "author": "",
   "license": "MIT",
@@ -72,7 +80,6 @@
   },
   "capacitor": {
     "ios": {
-      "src": "ios",
       "podspec": "ArhamSafeArea.podspec"
     },
     "android": {
