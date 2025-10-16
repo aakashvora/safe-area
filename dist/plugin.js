@@ -53,7 +53,10 @@ var capacitorSafeArea = (function (exports, core) {
     });
 
     exports.SafeArea = SafeArea;
+    exports.default = SafeArea;
     exports.initialize = initialize;
+
+    Object.defineProperty(exports, '__esModule', { value: true });
 
     return exports;
 

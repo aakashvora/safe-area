@@ -43,5 +43,4 @@ initialize();
 
 export * from './definitions';
 export { SafeArea, initialize };
-
-
+export default SafeArea;

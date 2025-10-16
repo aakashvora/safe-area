@@ -13,3 +13,4 @@ declare const SafeArea: SafeAreaPlugin;
 declare function initialize(): void;
 export * from './definitions';
 export { SafeArea, initialize };
+export default SafeArea;

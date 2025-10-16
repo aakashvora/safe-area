@@ -1,5 +1,7 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var core = require('@capacitor/core');
 
 const SafeArea = core.registerPlugin('SafeArea', {
@@ -54,5 +56,6 @@ var web = /*#__PURE__*/Object.freeze({
 });
 
 exports.SafeArea = SafeArea;
+exports.default = SafeArea;
 exports.initialize = initialize;
 //# sourceMappingURL=plugin.cjs.js.map

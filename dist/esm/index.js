@@ -35,4 +35,5 @@ function initialize() {
 initialize();
 export * from './definitions';
 export { SafeArea, initialize };
+export default SafeArea;
 //# sourceMappingURL=index.js.map
