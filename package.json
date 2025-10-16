@@ -1,6 +1,6 @@
 {
   "name": "@arham/safe-area",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "Capacitor Plugin that exposes the safe area insets from the native iOS/Android device to your web project.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/plugin.js",
@@ -62,6 +62,8 @@
     "@ionic/eslint-config": "^0.4.0",
     "@ionic/prettier-config": "^4.0.0",
     "@ionic/swiftlint-config": "^2.0.0",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
     "eslint": "^8.57.0",
     "prettier": "^3.4.2",
     "prettier-plugin-java": "^2.6.6",
