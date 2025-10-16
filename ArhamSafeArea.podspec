@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '13.0'
     s.swift_versions = ['5.7', '5.8', '5.9', '5.10']
   
-    # Your plugin Swift/Obj-C sources
+    # Your plugin Swift/Obj-C sources 
     s.source_files = 'ios/Plugin/**/*.{swift,h,m}'
   
     # Capacitor 7 dependency
