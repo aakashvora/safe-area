@@ -2,22 +2,24 @@ import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
 export default {
-  input: 'dist/esm/index.js', // Capacitor's tsc output (esm build)
+  input: 'dist/esm/index.js',
   external: ['@capacitor/core'],
   plugins: [resolve(), commonjs()],
   output: [
-    // ✅ ESM build (for "module")
+    // ✅ proper ESM output for vite/angular
     {
       file: 'dist/plugin.js',
       format: 'es',
       sourcemap: true,
+      inlineDynamicImports: true, // <-- important
     },
-    // ✅ CJS build (for "main")
+    // ✅ commonjs output
     {
       file: 'dist/plugin.cjs.js',
       format: 'cjs',
       exports: 'named',
       sourcemap: true,
+      inlineDynamicImports: true, // <-- important
     },
   ],
 };
